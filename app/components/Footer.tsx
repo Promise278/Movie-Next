@@ -1,5 +1,6 @@
 import React from 'react'
 import { Facebook, Twitter, Instagram, Github } from 'lucide-react';
+import Link from 'next/link';
 
 function Footer() {
   return (
@@ -15,10 +16,10 @@ function Footer() {
         <div>
           <h3 className="font-semibold mb-3">Quick Links</h3>
           <ul className="space-y-2 text-sm text-gray-300">
-            <li><a href="/" className="hover:text-white">Home</a></li>
-            <li><a href="/trending" className="hover:text-white">Trending</a></li>
-            <li><a href="/tv" className="hover:text-white">TV Shows</a></li>
-            <li><a href="/about" className="hover:text-white">About</a></li>
+            <li><Link href="/" className="hover:text-white">Home</Link></li>
+            <li><Link href="/popular" className="hover:text-white">Popular</Link></li>
+            <li><Link href="/rated" className="hover:text-white">Top Rated</Link></li>
+            <li><Link href="/upcoming" className="hover:text-white">Upcoming</Link></li>
           </ul>
         </div>
 
