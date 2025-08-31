@@ -14,9 +14,9 @@ function Nav() {
 
       <div className="hidden md:flex space-x-6">
         <Link href="/" className="text-gray-700 hover:text-indigo-600 transition font-medium">Home</Link>
-        <Link href="/trending" className="text-gray-700 hover:text-indigo-600 transition font-medium">Trending</Link>
-        <Link href="/tvshow" className="text-gray-700 hover:text-indigo-600 transition font-medium">TV Shows</Link>
-        <Link href="/about" className="text-gray-700 hover:text-indigo-600 transition font-medium">About</Link>
+        <Link href="/popular" className="text-gray-700 hover:text-indigo-600 transition font-medium">Popular</Link>
+        <Link href="/rated" className="text-gray-700 hover:text-indigo-600 transition font-medium">Top Rated</Link>
+        <Link href="/upcoming" className="text-gray-700 hover:text-indigo-600 transition font-medium">Upcoming</Link>
       </div>
 
       <div className="relative md:flex hidden">
